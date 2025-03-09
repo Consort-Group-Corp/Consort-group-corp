@@ -1,0 +1,6 @@
+[submodule "consort-infra"]
+	path = consort-infra
+	url = https://github.com/Consort-Group-Corp/consort-infra.git
+[submodule "user_service"]
+	path = user_service
+	url = https://github.com/Consort-Group-Corp/user_service.git
