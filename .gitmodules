@@ -4,7 +4,3 @@
 [submodule "user_service"]
 	path = user_service
 	url = https://github.com/Consort-Group-Corp/user_service.git
-
-[submodule "notification_service"]
-	path = notification_service
-	url = https://github.com/Consort-Group-Corp/notification_service.git
