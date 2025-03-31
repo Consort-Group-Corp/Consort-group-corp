@@ -7,3 +7,6 @@
 [submodule "modules/notification_service"]
 	path = modules/notification_service
 	url = https://github.com/Consort-Group-Corp/notification_service.git
+[submodule "notification_service"]
+	path = notification_service
+	url = https://github.com/Consort-Group-Corp/notification_service.git
