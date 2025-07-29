@@ -1,11 +1,23 @@
 package uz.consortgroup.webinar_service.entity;
 
-import jakarta.persistence.*;
-import lombok.*;
-import uz.consortgroup.core.api.v1.dto.webinar.LanguageCode;
+import jakarta.persistence.CascadeType;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.OneToMany;
+import jakarta.persistence.Table;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import uz.consortgroup.core.api.v1.dto.webinar.enumeration.LanguageCode;
 
 import java.time.LocalDateTime;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
@@ -27,6 +39,9 @@ public class Webinar {
 
     @Column(name = "preview_url")
     private String previewUrl;
+
+    @Column(name = "preview_filename")
+    private String previewFilename;
 
     @Column(name = "start_time", nullable = false)
     private LocalDateTime startTime;
