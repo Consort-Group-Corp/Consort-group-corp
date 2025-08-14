@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="Consort_group_corp.course_service" target="21" />
+      <module name="Consort_group_corp.course_service.main" target="21" />
+      <module name="Consort_group_corp.course_service.test" target="21" />
+      <module name="Consort_group_corp.main" target="21" />
+      <module name="Consort_group_corp.shared-dto" target="21" />
+      <module name="Consort_group_corp.shared-dto.main" target="21" />
+      <module name="Consort_group_corp.shared-dto.test" target="21" />
+      <module name="Consort_group_corp.test" target="21" />
+      <module name="Consort_group_corp.user_service" target="21" />
+      <module name="Consort_group_corp.user_service.main" target="21" />
+      <module name="Consort_group_corp.user_service.test" target="21" />
+      <module name="public-api-dto" target="21" />
+      <module name="shared-dto.main" target="21" />
+      <module name="shared-dto.test" target="21" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
